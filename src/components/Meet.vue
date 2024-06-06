@@ -66,9 +66,15 @@ const myData = ref([
               >
                 <div class="flex h-full justify-center items-end">
                   <div class="flex gap-3 pb-5">
-                    <img :src="item.img[0]" alt="Facebook" />
-                    <img :src="item.img[1]" alt="Twitter" />
-                    <img :src="item.img[2]" alt="LinkedIn" />
+                    <a href="https://www.facebook.com">
+                      <img :src="item.img[0]" alt="Facebook" />
+                    </a>
+                    <a href="https://x.com"
+                      ><img :src="item.img[1]" alt="Twitter"
+                    /></a>
+                    <a href="https://www.linkedin.com"
+                      ><img :src="item.img[2]" alt="LinkedIn"
+                    /></a>
                   </div>
                 </div>
               </div>
