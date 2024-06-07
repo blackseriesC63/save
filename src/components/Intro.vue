@@ -2,7 +2,8 @@
   <div>
     <section class="bg-[#1C1E53] py-[128px]">
       <div class="container">
-        <div class="max-md:flex-col md:flex gap-x-8">
+        <div class="max-md:flex-col md:flex gap-x-8 items-center">
+          <!-- Added items-center -->
           <div class="">
             <h1
               class="mb-7 text-[25px] md:text-[54px] max-w-[500px] mx-auto md:max-w-[582px] text-[white] font-bold leading-[42px] md:leading-[74px]"
@@ -32,8 +33,13 @@
               </div>
             </div>
           </div>
-          <div>
-            <img class="max-md:w-[60%]" src="/images/intro.png" />
+          <div class="max-md:mt-10">
+            <!-- Added margin top for spacing -->
+            <img
+              class="max-w-full max-md:w-[60%] mx-auto"
+              src="/images/intro.png"
+            />
+            <!-- Centered the image using mx-auto -->
           </div>
         </div>
       </div>
