@@ -1,63 +1,52 @@
 <script setup>
 import { reactive } from "vue";
-
-const myData = reactive([
-  { img: "/images/facebook.png" },
-  { img: "/images/twitter.png" },
-  {
-    img: "/images/instragram.png",
-  },
-  {
-    img: "/images/linkedin.png",
-  },
-]);
 </script>
 
 <template>
-  <div class="bg-[#1C1E53]">
-    <div class="container">
-      <div class="md:grid grid-cols-2 py-[100px] gap-x-[50px] items-center">
-        <div class="pt-5">
-          <img src="/images/Logo.png" />
-          <p class="max-w-[380px] mt-4 text-[white] cursor-pointer">
+  <div class="bg-[#1C1E53] py-10 md:py-[100px]">
+    <div class="container mx-auto px-4">
+      <div class="grid gap-10 md:grid-cols-2 items-center">
+        <div>
+          <img src="/images/Logo.png" alt="Logo" />
+          <p class="text-white mt-4">
             We are always open to discuss your project and improve your online
             presence
           </p>
-          <div
-            class="pl-[37px] md:flex gap-x-4 text-[#282938] bg-[#FCD980] py-1 w-[100%] md:py-6 md:w-[80%] mt-[30px] md:mt-[86px] overflow-hidden"
-          >
-            <div class="">
-              <p class="text-[14px] md:text-[18px] font-bold cursor-pointer">
+          <div class="bg-[#FCD980] text-[#282938] py-4 px-6 mt-6 md:mt-20">
+            <div class="mb-4 md:mb-0">
+              <p class="text-lg md:text-xl font-bold">
                 <a href="https://www.google.com/intl/ru/gmail/about/"
                   >Email me at</a
                 >
               </p>
-              <p>nizomiddinazam@mgail.com</p>
+              <p>nizomiddinazam@mgmail.com</p>
             </div>
-
-            <div class="">
-              <p class="text-[14px] md:text-[18px] font-bold cursor-pointer">
-                Call us
-              </p>
+            <div>
+              <p class="text-lg md:text-xl font-bold">Call us</p>
               <p>+99897-949-91-90</p>
             </div>
           </div>
         </div>
-        <div class="h-full">
-          <h1
-            class="text-[30px] md:text-[48px] font-bold leading-16 text-[white]"
-          >
-            Lets Talk!
-          </h1>
-          <p
-            class="mt-[14px] leading-7 text-4 font-normal max-w-[400px] text-[white]"
-          >
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-white">Let's Talk!</h1>
+          <p class="mt-4 text-white">
             We are always open to discuss your project, improve your online
-            presence and help with your UX/UI design challenges.
+            presence, and help with your UX/UI design challenges.
           </p>
-          <div class="flex mt-[28px] gap-x-4 cursor-pointer">
-            <div v-for="(item, index) in myData" :key="index">
-              <img :src="item.img" />
+          <div class="flex mt-4 gap-4">
+            <div class="flex gap-x-[27px] justify-center">
+              <a href="https://www.facebook.com/">
+                <img src="../../public/images/facebook.png" />
+              </a>
+              <a href="https://x.com/?lang=en">
+                <img src="../../public/images/instragram.png" />
+              </a>
+              <a href="https://www.instagram.com/">
+                <img src="../../public/images/twitter.png" />
+              </a>
+              <a href="https://uz.linkedin.com/">
+                <img src="../../public/images/linkedin.png" />
+              </a>
             </div>
           </div>
         </div>
