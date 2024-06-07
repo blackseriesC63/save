@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4 pb-32">
+  <div class="container mx-auto px-4 pb-12">
     <h1 class="text-[#282938] text-2xl md:text-4xl font-bold mt-14 mb-16">
       View our projects
     </h1>

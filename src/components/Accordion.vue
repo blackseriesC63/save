@@ -10,14 +10,14 @@
       <div
         v-for="(item, index) in faqItems"
         :key="index"
-        class="faq-item border-b py-4 pt-[32px]"
+        class="faq-item border-b py-2 pt-[32px]"
       >
         <div
           @click="toggle(index)"
           class="faq-question flex justify-between items-center cursor-pointer"
         >
-          <div class="items-center flex">
-            <span class="font-bold text-purple-600 mr-1">{{
+          <div class="items-center ">
+            <span class="font-bold text-purple-600 mr-1 items-center">{{
               String(index + 1).padStart(2, "0")
             }}</span>
             <span>{{ item.question }}</span>

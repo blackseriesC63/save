@@ -14,11 +14,13 @@
     </div>
 
     <div class="flex mt-4 gap-4 flex-wrap justify-center md:flex-row">
-      <button
-        class="bg-yellow-300 text-black py-2 px-4 rounded-full w-[254px] h-[64px] mx-auto mt-[50px]"
-      >
-        Contact Us
-      </button>
+      <router-link to="/contact">
+        <button
+          class="bg-yellow-300 text-black py-2 px-4 rounded-full w-[254px] h-[64px] mx-auto mt-[50px]"
+        >
+          Contact Us
+        </button>
+      </router-link>
     </div>
   </div>
 </template>
