@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white py-6 md:py-[106px]">
     <div class="container mx-auto px-4">
-      <div class="md:grid md:grid-cols-3 gap-6">
+      <div class="md:grid md:grid-cols-3">
         <div class="mb-6 md:mb-0">
           <h2 class="text-[#282938] font-bold text-2xl md:text-3xl mb-3">
             What our clients say about us

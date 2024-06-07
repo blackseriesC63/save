@@ -1,25 +1,25 @@
 <template>
   <div class="py-10">
     <div class="container mx-auto px-4">
-      <div class="flex justify-center mb-8 flex-wrap gap-2">
-        <div class="space-x-2 flex">
+      <div class="flex justify-center mb-8 flex-wrap">
+        <div class="space-x-1 flex justify-center">
           <button
             v-for="category in categories"
             :key="category"
             @click="selectedCategory = category"
             :class="{
-              'text-purple-500 bg-slate-50 justify-center ml-5':
+              'text-purple-500 bg-slate-50 justify-center':
                 selectedCategory === category,
               'text-black': selectedCategory !== category,
             }"
-            class="px-4 py-2 rounded"
+            class="px-4 rounded"
           >
             {{ category }}
           </button>
         </div>
       </div>
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-2"
       >
         <TemplateCard
           v-for="(template, index) in filteredTemplates"

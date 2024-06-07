@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container pt-24 sm:pt-32 md:pt-40 lg:pt-52">
+    <div class="container pt-5 sm:pt-32 md:pt-40 lg:pt-10">
       <h1
         class="text-[28px] sm:text-[36px] md:text-[44px] lg:text-[50px] font-bold leading-[36px] sm:leading-[44px] md:leading-[54px] lg:leading-[64px] text-center text-primary w-full sm:w-[600px] md:w-[700px] lg:w-[825px] mx-auto"
       >

@@ -53,7 +53,7 @@
             <textarea
               rows="4"
               placeholder="Write your question here"
-              class="p-3 sm:p-5 mt-1 block w-full h-32 sm:h-[138px] border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+              class="resize-none p-3 sm:p-5 mt-1 block w-full h-32 sm:h-[138px] border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
             ></textarea>
           </div>
         </div>
