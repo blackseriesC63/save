@@ -3,8 +3,8 @@
     <div class="text-center">
       <h1 class="text-3xl sm:text-4xl font-bold text-primary">Contact Us</h1>
       <p class="text-gray-500 mt-2 text-base sm:text-lg">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br />
+        eiusmod tempor incididunt ut labore.
       </p>
     </div>
     <div class="mt-12 bg-gray-50 p-6 sm:p-8 rounded-lg w-full max-w-4xl">
@@ -15,6 +15,7 @@
             <input
               type="text"
               placeholder="Enter your name"
+              required
               class="p-3 sm:p-5 mt-1 block w-full h-12 sm:h-[64px] border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
             />
           </div>
@@ -23,6 +24,7 @@
             <input
               type="email"
               placeholder="Enter your Email"
+              required
               class="p-3 sm:p-5 mt-1 block w-full h-12 sm:h-[64px] border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
             />
           </div>
@@ -33,6 +35,7 @@
             <input
               type="text"
               placeholder="Provide context"
+              required
               class="p-3 sm:p-5 mt-1 block w-full h-12 sm:h-[64px] border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
             />
           </div>
@@ -43,6 +46,7 @@
             <input
               type="text"
               placeholder="Select Subject"
+              required
               class="p-3 sm:p-5 mt-1 block w-full h-12 sm:h-[64px] border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
             />
           </div>
@@ -53,6 +57,7 @@
             <textarea
               rows="4"
               placeholder="Write your question here"
+              required
               class="resize-none p-3 sm:p-5 mt-1 block w-full h-32 sm:h-[138px] border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
             ></textarea>
           </div>

@@ -19,7 +19,7 @@ import { reactive } from "vue";
                   >Email me at</a
                 >
               </p>
-              <p>nizomiddinazam@mgmail.com</p>
+              <p>nizomiddinazam@gmail.com</p>
             </div>
             <div>
               <p class="text-lg md:text-xl font-bold">Call us</p>

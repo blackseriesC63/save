@@ -11,10 +11,10 @@
           </p>
         </div>
         <div class="md:col-span-2">
-          <h2 class="text-[#282938] font-medium text-lg md:text-2xl mb-3">
+          <h2 class="text-[#282938] font-medium text-lg md:text-2xl mb-3  pl-5">
             "{{ reviews[currentReview].quote }}"
           </h2>
-          <div class="flex items-center gap-4 mt-6 md:mt-0 justify-between">
+          <div class="flex items-center gap-4 mt-6 md:mt-0 justify-between  pl-5">
             <div class="flex items-center gap-3 pt-2">
               <img
                 :src="reviews[currentReview].image"

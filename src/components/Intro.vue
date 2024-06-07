@@ -19,17 +19,21 @@
             <div
               class="max-md:mb-[50px] flex gap-x-[55px] mt-[50px] items-center"
             >
-              <button
-                class="max-md:ml-4 rounded-3xl font-medium border border-white-500 py-3 px-8 md:py-4 md:px-16 bg-[#FCD980]"
-              >
-                View our work
-              </button>
-              <div class=" ">
-                <p
-                  class="max-md:pb-2 text-3 mt-2 md:text-[14px] font-medium leading-7 text-[white] cursor-pointer"
+              <router-link to="/work">
+                <button
+                  class="max-md:ml-4 rounded-3xl font-medium border border-white-500 py-3 px-8 md:py-4 md:px-16 bg-[#FCD980]"
                 >
-                  View Pricing
-                </p>
+                  View our work
+                </button>
+              </router-link>
+              <div class=" ">
+                <router-link to="/pricing">
+                  <p
+                    class="max-md:pb-2 text-3 mt-2 md:text-[14px] font-medium leading-7 text-[white] cursor-pointer"
+                  >
+                    View Pricing
+                  </p>
+                </router-link>
               </div>
             </div>
           </div>
