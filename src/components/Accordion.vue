@@ -17,7 +17,7 @@
           class="faq-question flex justify-between items-center cursor-pointer"
         >
           <div class="items-center flex">
-            <span class="font-bold text-purple-600 mr-2">{{
+            <span class="font-bold text-purple-600 mr-1">{{
               String(index + 1).padStart(2, "0")
             }}</span>
             <span>{{ item.question }}</span>
