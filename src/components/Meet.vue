@@ -56,7 +56,7 @@ const myData = ref([
         </h2>
       </div>
       <div
-        class="grid gap-7 md:grid-cols-2 lg:grid-cols-4 pb-[64px] md:pb-[128px]"
+        class="grid gap-7 md:grid-cols-2 lg:grid-cols-4 pb-[64px] md:pb-[128px] hover:shadow-md"
       >
         <div
           v-for="(item, index) in myData"
@@ -75,21 +75,21 @@ const myData = ref([
                     <img
                       :src="item.img[0]"
                       alt="Facebook"
-                      class="w-6 h-6 md:w-8 md:h-8"
+                      class="w-4 h-4 md:w-4 md:h-4"
                     />
                   </a>
                   <a href="https://x.com">
                     <img
                       :src="item.img[1]"
                       alt="Twitter"
-                      class="w-6 h-6 md:w-8 md:h-8"
+                      class="w-4 h-4 md:w-4 md:h-4"
                     />
                   </a>
                   <a href="https://www.linkedin.com">
                     <img
                       :src="item.img[2]"
                       alt="LinkedIn"
-                      class="w-6 h-6 md:w-8 md:h-8"
+                      class="w-4 h-4 md:w-4 md:h-4"
                     />
                   </a>
                 </div>

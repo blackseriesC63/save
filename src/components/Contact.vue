@@ -57,7 +57,8 @@
             ></textarea>
           </div>
         </div>
-        <div class="mt-6 flex">
+        <div class="mt-6 flex justify-center">
+          <!-- Added justify-center class -->
           <button
             type="submit"
             class="w-[254px] h-[64px] py-3 bg-black text-white rounded-full shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"

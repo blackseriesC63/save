@@ -3,7 +3,7 @@
     <div class="container mx-auto text-center">
       <h2 class="text-4xl font-bold mb-4">Our Pricing Plans</h2>
       <p class="text-gray-600 mb-10">
-        When you're ready to go beyond prototyping in Figma, Webflow is ready to
+        When you're ready to go beyond prototyping in Figma, Webflow is <br> ready to
         help you bring your designs to life — without coding them.
       </p>
 
@@ -20,7 +20,7 @@
             <p class="text-left">
               When you’re ready to go beyond prototyping in Figma,
             </p>
-            <ul class="text-left space-y-2 mb-6 pt-[78px]">
+            <ul class="text-left space-y-2 mb-6 pt-[28px]">
               <li class="flex items-center pt-[20px]">
                 <img src="/images/Pointer.png" alt="" class="pr-2" />
                 All limited links
@@ -33,11 +33,11 @@
                 <img src="/images/Pointer.png" alt="" class="pr-2" />
                 Chat support
               </li>
-              <li class="flex items-center pt-[20px]">
+              <li class="flex items-center pt-[20px] mix-blend-luminosity">
                 <img src="/images/Pointer-2.png" alt="" class="pr-2" />
                 Optimize hashtags
               </li>
-              <li class="flex items-center pt-[20px]">
+              <li class="flex items-center pt-[20px] mix-blend-luminosity">
                 <img src="/images/Pointer-2.png" alt="" class="pr-2" />
                 Unlimited users
               </li>

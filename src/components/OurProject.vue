@@ -7,7 +7,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
       <div class="md:col-span-2 md:row-span-2 relative group overflow-hidden">
         <div
-          class="w-full h-full group-hover:left-0 duration-300 -left-full top-0 absolute bg-gradient-to-r from-[#1C1E536B]/40 to-[#1C1E53]"
+          class="h-full group-hover:left-0 w-[50%] duration-300 -left-full top-0 absolute bg-gradient-to-r from-[#1C1E536B]/40 to-[#1C1E53]"
         >
           <div
             class="absolute inset-0 flex flex-col justify-center items-center p-10"
@@ -35,7 +35,7 @@
       </div>
       <div class="relative overflow-hidden group">
         <div
-          class="w-full h-full group-hover:left-0 duration-300 -left-full top-0 absolute bg-gradient-to-r from-[#1C1E536B]/40 to-[#1C1E53] p-10 flex flex-col justify-center items-center"
+          class="h-full group-hover:left-0 w-[50%] duration-300 -left-full top-0 absolute bg-gradient-to-r from-[#1C1E536B]/40 to-[#1C1E53] p-10 flex flex-col justify-center items-center"
         >
           <h1 class="text-xl md:text-2xl font-bold text-white text-center">
             Unisaas Website

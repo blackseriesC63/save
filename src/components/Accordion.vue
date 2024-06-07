@@ -1,4 +1,3 @@
-<!-- src/components/Accordion.vue -->
 <template>
   <div
     class="flex flex-col md:flex-row justify-between items-start mx-auto p-6 rounded-lg w-[1280px] h-[562px]"
@@ -17,14 +16,20 @@
           @click="toggle(index)"
           class="faq-question flex justify-between items-center cursor-pointer"
         >
-          <div class="flex items-center">
+          <div class="items-center flex">
             <span class="font-bold text-purple-600 mr-2">{{
               String(index + 1).padStart(2, "0")
             }}</span>
             <span>{{ item.question }}</span>
           </div>
-          <span v-if="activeIndex === index">✕</span>
-          <span v-else>+</span>
+          <div>
+            <span
+              v-if="activeIndex === index"
+              class="text-purple-600 cursor-pointer"
+              >✕</span
+            >
+            <span v-else class="text-purple-600 cursor-pointer">+</span>
+          </div>
         </div>
         <div v-if="activeIndex === index" class="faq-answer py-4">
           <p>{{ item.answer }}</p>
@@ -75,6 +80,7 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 .faq-item {
   transition: all 0.3s ease;
@@ -83,8 +89,9 @@ export default {
 @media (max-width: 768px) {
   /* Styles for mobile devices */
   .faq-question {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
   .faq-question span:first-child {
     margin-bottom: 8px;

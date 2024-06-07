@@ -8,7 +8,7 @@
             :key="category"
             @click="selectedCategory = category"
             :class="{
-              'text-purple-500': selectedCategory === category,
+              'text-purple-500 bg-slate-50': selectedCategory === category,
               'text-black': selectedCategory !== category,
             }"
             class="px-4 py-2 rounded"

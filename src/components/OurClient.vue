@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#F4F6FC] py-6 md:py-[106px]">
+  <div class="bg-white py-6 md:py-[106px]">
     <div class="container mx-auto px-4">
       <div class="md:grid md:grid-cols-3 gap-6">
         <div class="mb-6 md:mb-0">
@@ -15,7 +15,7 @@
             "{{ reviews[currentReview].quote }}"
           </h2>
           <div class="flex items-center gap-4 mt-6 md:mt-0 justify-between">
-            <div class="flex items-center gap-3 pt-6">
+            <div class="flex items-center gap-3 pt-2">
               <img
                 :src="reviews[currentReview].image"
                 class="rounded-full w-16 h-16 md:w-24 md:h-24"
